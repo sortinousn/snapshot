@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Snapshot",
+    "slug": "snapshot",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_splash.png",
+    "splash": {
+      "image": "./assets/splash3.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.captifiy.sanapshot",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.captifiy.snapshot",
+      "versionCode": 1
+    }
+  }
+}
